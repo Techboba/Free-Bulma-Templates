@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Jobs Near You</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="Bulma">
+            </a>
+    
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#">
+                    <i class="fas fa-home mr-2"></i> Home
+                </a>
+    
+                <a class="navbar-item" href="#">
+                    <i class="fas fa-briefcase mr-2"></i> Jobs
+                </a>
+    
+                <a class="navbar-item" href="#">
+                    <i class="fas fa-info-circle mr-2"></i> About
+                </a>
+    
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <i class="fas fa-plus mr-2"></i> More
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="#">
+                            <i class="fas fa-envelope mr-2"></i> Contact
+                        </a>
+                        <a class="navbar-item" href="#">
+                            <i class="fas fa-briefcase mr-2"></i> Careers
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="#">
+                            <i class="fas fa-user-plus mr-2"></i> <strong>Register</strong>
+                        </a>
+                        <a class="button is-light" href="#">
+                            <i class="fas fa-sign-in-alt mr-2"></i> Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <div class="hero is-dark is-medium">
+   <div class="hero-body ">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Welcome to Our Job Portal
+            </h1>
+            <h2 class="subtitle">
+                Find Your Dream Job Today
+            </h2>
+            
+            <!-- Large Search Input -->
+            <div class="field is-grouped is-grouped-centered">
+                <p class="control is-expanded">
+                    <input class="input is-large" type="text" placeholder="Search for jobs">
+                </p>
+                <p class="control">
+                    <button class="button is-large is-info">
+                        Search
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+      
+    </div>
+
+    <section class="section">
+        <div class="container">
+          <h1 class="title has-text-centered">Job Categories</h1>
+          
+          <div class="columns category-section">
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-code"></i> Software Development</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-hard-hat"></i> Construction</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">      
+                <p class="subtitle"><i class="fas fa-briefcase"></i> Business</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="columns category-section">
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-chart-line"></i> Finance</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-graduation-cap"></i> Education</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">      
+                <p class="subtitle"><i class="fas fa-cogs"></i> Engineering</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="columns category-section">
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-seedling"></i> Agriculture</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-shovel"></i> Farming</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">      
+                <p class="subtitle"><i class="fas fa-fish"></i> Fishing</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="columns category-section">
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-desktop"></i> IT</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">
+                <p class="subtitle"><i class="fas fa-user-tie"></i> HR</p>
+              </div>
+            </div>
+      
+            <div class="column is-one-third">
+              <div class="box category-card">      
+                <p class="subtitle"><i class="fas fa-medkit"></i> Health and Safety</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+  
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">Top Companies Hiring Now</h1>
+
+      <div class="columns companies-section">
+        <div class="column is-one-third">
+          <div class="box">
+            <img class="company-logo" src="company1_logo.png" alt="Company 1 Logo">
+            <p class="subtitle">Company 1</p>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box">
+            <img class="company-logo" src="company2_logo.png" alt="Company 2 Logo">
+            <p class="subtitle">Company 2</p>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box">
+            <img class="company-logo" src="company3_logo.png" alt="Company 3 Logo">
+            <p class="subtitle">Company 3</p>
+          </div>
+        </div>
+
+        <!-- Add more company boxes as needed -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns">
+        <!-- First Column with Logo and Company Info -->
+        <div class="column is-one-quarter">
+          <div class="content">
+            <img src="your-logo.png" alt="Company Logo" style="max-width: 150px;">
+            <p>Your Company Name</p>
+            <p>123 Company Street</p>
+            <p>City, Country</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123 456 7890</p>
+          </div>
+        </div>
+
+        <!-- Second Column with Job Listings -->
+        <div class="column">
+          <div class="content">
+            <h4 class="title is-4">Job Listings</h4>
+            <ul>
+              <li><a href="#">Software Development</a></li>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">Business</a></li>
+              <!-- Add more job listing categories as needed -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Third Column with Additional Job Pages -->
+        <div class="column">
+          <div class="content">
+            <h4 class="title is-4">More Job Pages</h4>
+            <ul>
+              <li><a href="#">Finance</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Engineering</a></li>
+              <!-- Add more job-related pages as needed -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Fourth Column with Company Info -->
+        <div class="column">
+          <div class="content">
+            <h4 class="title is-4">About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="has-text-centered">Job Listings Website by <a href="https://techboba.org/">TechBoba</a></p>
+  </footer>
+
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<script src="custom.js"></script>
+
+</body>
+</html>
